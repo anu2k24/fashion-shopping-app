@@ -104,7 +104,11 @@ const Home = () => {
                     </div>
                     <div className="product-scroll">
                         {newArrivals.map((product) => (
-                            <Link to={`/product/${product.id}`} key={product.id} className="product-card">
+                            <Link to={`/product/${product.id}`}
+                                 key={product.id}
+                                className="product-card"
+                                 onClick={() => window.scrollTo(0, 0)}
+                              >
                                 <div className="product-image">
                                     <span className="badge-new">NEW</span>
                                     <img src={product.image} alt={product.name} />
