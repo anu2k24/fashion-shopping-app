@@ -55,7 +55,19 @@ const products = [
         tags: ["New"],
         filters: { size: "M", sleeve: "Sleeveless", price: "1000-1999", offerType: "Flat Discount", discount: "10% – 20%", arrival: "Last 7 Days" }
     },
-
+{    "id": 1768021026072,
+        "name": "churidar",
+        "category": "churidar",
+        "productType":"churidar",
+        "gender":"Women",
+        "price": 2000,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm2Ji9r7mFkOZwbubgzP7e6oHTNlTUrcbUZuufW1lorA&s=10",
+    
+        "tags": ["New"],
+        "filters": {
+            "size": "M",
+            "arrival": "Last 7 Days"
+        },
     // --- Men ---
     {
         id: 4,
