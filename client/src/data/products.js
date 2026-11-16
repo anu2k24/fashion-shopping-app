@@ -67,6 +67,7 @@ const products = [
         "filters": {
             "size": "M",
             "arrival": "Last 7 Days"
+        }
         },
     // --- Men ---
     {
